@@ -14,6 +14,7 @@ public class PracticeForm extends DriverSetup{
 //        System.out.println(browser.getPageSource());
         System.out.println(browser.getWindowHandle());
         System.out.println(browser.getWindowHandles());
+        System.out.println(browser.switchTo());
         System.out.println(browser.manage());
         System.out.println(browser.navigate());
 
